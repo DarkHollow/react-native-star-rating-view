@@ -140,7 +140,6 @@ export default class StarRatingBar extends Component {
                 >
                 </StarRatingView>
             </View>
-            {dontShowScore ? null : <Text style={scoreTextStyle}>{this.state.value}{scoreText}</Text>}
         </View>;
     }
 }
